@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        className="org.zywx.wbpalmstar.plugin.uextabindicatorview.EUExTabIndicatorView" uexName="uexTabIndicatorView" >
+        <method name="open" type="0" />
+        <method name="close" />
+        <method name="test" />
+    </plugin>
+</uexplugins>
