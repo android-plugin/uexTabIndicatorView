@@ -122,4 +122,10 @@ public class EUExTabIndicatorView extends EUExBase {
         onCallback(js);
     }
 
+    public void setVisible(String[] params){
+        if (tabLayout!=null){
+            tabLayout.setVisibility(params[0].equals("0")?View.GONE:View.VISIBLE);
+        }
+    }
+
 }

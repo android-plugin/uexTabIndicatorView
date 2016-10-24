@@ -4,5 +4,7 @@
         className="org.zywx.wbpalmstar.plugin.uextabindicatorview.EUExTabIndicatorView" uexName="uexTabIndicatorView" >
         <method name="open" />
         <method name="close" />
+        <method name="test" />
+        <method name="setVisible"/>
     </plugin>
 </uexplugins>

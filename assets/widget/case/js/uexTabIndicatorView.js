@@ -65,6 +65,11 @@ if (UNIT_TEST) {
                     titles:["baidu","taobao"]
                 };
             uexTabIndicatorView.open(param);
+            uexTabIndicatorView.setVisible(0);
+            setTimeout(function(){
+              uexTabIndicatorView.setVisible(1);
+            },1000)
+            UNIT_TEST.assert(true);
         }
 
     };
