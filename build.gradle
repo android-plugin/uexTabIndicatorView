@@ -16,6 +16,17 @@
  *
  *
  */
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
 
 apply plugin: 'com.android.application'
 
@@ -44,7 +55,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 14 //
         applicationId 'org.zywx.wbpalmstar.widgetone.uexTabIndicatorView'
-        multiDexEnabled true
+        //multiDexEnabled true
     }
     sourceSets {
         main {
