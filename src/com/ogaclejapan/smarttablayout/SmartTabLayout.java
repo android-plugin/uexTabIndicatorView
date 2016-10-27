@@ -59,7 +59,7 @@ import android.widget.TextView;
  */
 public class SmartTabLayout extends HorizontalScrollView {
 
-  private static final boolean DEFAULT_DISTRIBUTE_EVENLY = false;
+  private static final boolean DEFAULT_DISTRIBUTE_EVENLY = true;
   private static final int TITLE_OFFSET_DIPS = 24;
   private static final int TITLE_OFFSET_AUTO_CENTER = -1;
   private static final int TAB_VIEW_PADDING_DIPS = 16;
